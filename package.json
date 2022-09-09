@@ -1,0 +1,42 @@
+{
+  "name": "front-helix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm install ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moclojer/front-helix.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moclojer/front-helix/issues"
+  },
+  "homepage": "https://github.com/moclojer/front-helix#readme",
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.5",
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "shadow-cljs": "^2.20.1",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.8",
+    "clsx": "^1.2.0",
+    "focus-visible": "^5.2.0",
+    "moclojer-components": "file:lib",
+    "next": "12.2.5",
+    "postcss-focus-visible": "^6.0.4",
+    "react": "^18.2.0",
+    "react-dom": "18.2.0",
+    "react-refresh": "^0.14.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
