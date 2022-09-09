@@ -3,7 +3,7 @@
             [helix.hooks :as hooks]
             [helix.dom :as d]
             ["react"  :as React]
-            ["mocloje-components" :as mc]
+            ["moclojer-components" :as mc]
             ["react-dom/client" :as rdom]))
 
 (defnc app []
