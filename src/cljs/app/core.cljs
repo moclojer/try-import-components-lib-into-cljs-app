@@ -22,6 +22,7 @@
 
      ;; Example using an react component on local repo
      ($ mc/Banner {})
+     ($ mc/Button {:onClick #()} "Test")
 
      ;; Example using an react component npm lib
      (d/div ($ InputNumber {:upHandler (d/div {:style {:color "blue"}} "^")
