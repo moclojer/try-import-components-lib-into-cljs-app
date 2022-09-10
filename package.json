@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preinstall": "npm install ./lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preinstall": "npm run prereq --prefix ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx shadow-cljs watch app"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
     "moclojer-components": "file:lib",
     "next": "12.2.5",
     "postcss-focus-visible": "^6.0.4",
+    "rc-input-number": "^7.3.7",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-refresh": "^0.14.0",
